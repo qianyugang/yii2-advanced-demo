@@ -14,7 +14,7 @@ Yii 2 Advanced Demo
 
 # 使用
 1. 使用 git 克隆一份项目 `git clone https://github.com/iiYii/yii2-advanced-demo.git`
-1. 如果 GitHub 网速慢可以使用[开源中国的源](http://git.oschina.net/forecho/yii2-advanced-demo) `git clone git@git.oschina.net:forecho/yii2-advanced-demo.git`
+1. 如果 GitHub 网速慢可以使用[开源中国的源](http://git.oschina.net/forecho/yii2-advanced-demo) `git clone https://git.oschina.net/forecho/yii2-advanced-demo.git`
 2. 进入项目根目录，使用 `php init` 初始化项目
 3. 创建一个新的数据库，修改 `common/config/main-local.php` 中相应的数据库配置
 4. 在项目根目录使用命令行命令 `yii migrate` 初始化数据库
