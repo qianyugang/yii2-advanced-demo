@@ -1,4 +1,4 @@
-Yii 2 Advanced Application Template Demo
+Yii 2 Advanced Demo
 ===================================
 
 定期更新的 Yii2 Advanced 完整包，下载直接可以运行(已经`composer install`了,也就是已经有了vendor目录)。
@@ -16,11 +16,11 @@ Yii 2 Advanced Application Template Demo
 1. 使用 git 克隆一份项目 `git clone https://github.com/iiYii/yii2-advanced-demo.git`
 1. 如果 GitHub 网速慢可以使用[开源中国的源](http://git.oschina.net/forecho/yii2-advanced-demo) `git clone git@git.oschina.net:forecho/yii2-advanced-demo.git`
 2. 进入项目根目录，使用 `php init` 初始化项目
-3. 创建一个新的数据库，修改 common/config/main-local.php 中相应的数据库配置
+3. 创建一个新的数据库，修改 `common/config/main-local.php` 中相应的数据库配置
 4. 在项目根目录使用命令行命令 `yii migrate` 初始化数据库
 5. 配置你的 Apache 
-    - 对于前台 /yii-application-demo/frontend/web/ ，访问URL为 http://frontend.xxx.com/
-    - 对于后台 /yii-application-demo/backend/web/ ，访问URL为 http://backend.xxx.com/
+    - 对于前台 `/yii-application-demo/frontend/web/` ，访问URL为 http://frontend.xxx.com/
+    - 对于后台 `/yii-application-demo/backend/web/` ，访问URL为 http://backend.xxx.com/
 
 
 ## 赞助:dollar:
