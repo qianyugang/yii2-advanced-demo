@@ -28,9 +28,9 @@ Yii 2 Advanced Application Template Demo
 
 1. 我的支付宝：caizhenghai@gmail.com
 2. 扫二维码直接捐助 
-    ![支付宝即是到账](http://ww4.sinaimg.cn/bmiddle/4cc5f9b3jw1edgpp0u6joj207i07imy4.jpg)
+    - ![支付宝即是到账](http://ww4.sinaimg.cn/bmiddle/4cc5f9b3jw1edgpp0u6joj207i07imy4.jpg)
 3. 加我微信，转账捐助 
-    ![微信支付](http://ww3.sinaimg.cn/bmiddle/4cc5f9b3gw1eonw0fs4c0j20fl0ltjt8.jpg)
+    - ![微信支付](http://ww3.sinaimg.cn/bmiddle/4cc5f9b3gw1eonw0fs4c0j20fl0ltjt8.jpg)
 
 请留下您的联系方式，感谢！
 
