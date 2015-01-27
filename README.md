@@ -1,97 +1,45 @@
-Yii 2 Advanced Application Template
+Yii 2 Advanced Application Template Demo
 ===================================
 
-Yii 2 Advanced Application Template is a skeleton Yii 2 application best for
-developing complex Web applications with multiple tiers.
+定期更新的 Yii2 Advanced 完整包，下载直接可以运行(已经`composer install`了,也就是已经有了vendor目录)。
 
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
+- 主要解决的问题：
 
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
+    - 不会用`composer`或者不太会用；
+    - `composer` 装不上或者装上了但是`composer install`特别慢。
 
-
-DIRECTORY STRUCTURE
--------------------
-
-```
-common
-    config/              contains shared configurations
-    mail/                contains view files for e-mails
-    models/              contains model classes used in both backend and frontend
-console
-    config/              contains console configurations
-    controllers/         contains console controllers (commands)
-    migrations/          contains database migrations
-    models/              contains console-specific model classes
-    runtime/             contains files generated during runtime
-backend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains backend configurations
-    controllers/         contains Web controller classes
-    models/              contains backend-specific model classes
-    runtime/             contains files generated during runtime
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-frontend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains frontend configurations
-    controllers/         contains Web controller classes
-    models/              contains frontend-specific model classes
-    runtime/             contains files generated during runtime
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-    widgets/             contains frontend widgets
-vendor/                  contains dependent 3rd-party packages
-environments/            contains environment-based overrides
-tests                    contains various tests for the advanced application
-    codeception/         contains tests developed with Codeception PHP Testing Framework
-```
+- 更新频率：
+    > 不定时
 
 
-REQUIREMENTS
-------------
-
-The minimum requirement by this application template that your Web server supports PHP 5.4.0.
-
-
-INSTALLATION
-------------
-
-### Install from an Archive File
-
-Extract the archive file downloaded from [yiiframework.com](http://www.yiiframework.com/download/) to
-a directory named `advanced` that is directly under the Web root.
-
-Then follow the instructions given in "GETTING STARTED".
+# 使用
+1. 使用 git 克隆一份项目 `git clone https://github.com/iiYii/yii2-advanced-demo.git`
+1. 如果 GitHub 网速慢可以使用[开源中国的源](http://git.oschina.net/forecho/yii2-advanced-demo) `git clone git@git.oschina.net:forecho/yii2-advanced-demo.git`
+2. 进入项目根目录，使用 `php init` 初始化项目
+3. 创建一个新的数据库，修改 common/config/main-local.php 中相应的数据库配置
+4. 在项目根目录使用命令行命令 `yii migrate` 初始化数据库
+5. 配置你的 Apache 
+    - 对于前台 /yii-application-demo/frontend/web/ ，访问URL为 http://frontend.xxx.com/
+    - 对于后台 /yii-application-demo/backend/web/ ，访问URL为 http://backend.xxx.com/
 
 
-### Install via Composer
+## 赞助:dollar:
+如果您觉得对你有帮助愿意捐助的话可以：
 
-If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
-at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
+1. 我的支付宝：caizhenghai@gmail.com
+2. 扫二维码直接捐助 ![支付宝即是到账](http://ww4.sinaimg.cn/bmiddle/4cc5f9b3jw1edgpp0u6joj207i07imy4.jpg)
+3. 加我微信，转账捐助 ![微信支付](http://ww3.sinaimg.cn/bmiddle/4cc5f9b3gw1eonw0fs4c0j20fl0ltjt8.jpg)
 
-You can then install the application using the following command:
+请留下您的联系方式，感谢！
 
-~~~
-php composer.phar global require "fxp/composer-asset-plugin:1.0.0-beta4"
-php composer.phar create-project --prefer-dist --stability=dev yiisoft/yii2-app-advanced advanced
-~~~
+感谢以下朋友的赞助：
 
+<table>
+<tr><th>名称</th><th>金额</th></tr>
+<tr><td> 没有人赞助 <a href="#">@没有人</a></td><td>￥100</td></tr>
+</table>
 
-GETTING STARTED
----------------
+## 更多关于Yii2
 
-After you install the application, you have to conduct the following steps to initialize
-the installed application. You only need to do these once for all.
-
-1. Run command `init` to initialize the application with a specific environment.
-2. Create a new database and adjust the `components['db']` configuration in `common/config/main-local.php` accordingly.
-3. Apply migrations with console command `yii migrate`. This will create tables needed for the application to work.
-4. Set document roots of your Web server:
-
-- for frontend `/path/to/yii-application/frontend/web/` and using the URL `http://frontend/`
-- for backend `/path/to/yii-application/backend/web/` and using the URL `http://backend/`
-
-To login into the application, you need to first sign up, with any of your email address, username and password.
-Then, you can login into the application with same email address and password at any time.
+- Yii 官方网站：[http://www.yiiframework.com](http://www.yiiframework.com)
+- 我们的网站：[http://www.getyii.com](http://www.getyii.com)
