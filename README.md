@@ -9,16 +9,17 @@ Yii2 Advanced Demo
     - `composer` 装不上或者装上了但是`composer install`特别慢。
 
 - 更新频率：
-    > 不定时
+    > 每周更新一次
 
 
 # 使用
 1. 使用 git 克隆一份项目 `git clone https://github.com/iiYii/yii2-advanced-demo.git`
 1. 如果 GitHub 网速慢可以使用[开源中国的源](http://git.oschina.net/forecho/yii2-advanced-demo) `git clone https://git.oschina.net/forecho/yii2-advanced-demo.git`
-2. 进入项目根目录，使用 `php init` 初始化项目
+1. 解压 zip 文件，得到 `_yii2` 文件夹。
+2. 进入项目根目录（_yii2 文件夹），使用 `php init` 初始化项目
 3. 创建一个新的数据库，修改 `common/config/main-local.php` 中相应的数据库配置
 4. 在项目根目录使用命令行命令 `yii migrate` 初始化数据库
-5. 配置你的 Apache 
+5. 配置你的 Apache
     - 对于前台 `/yii2-advanced-demo/frontend/web/` ，访问URL为 http://frontend.xxx.com/
     - 对于后台 `/yii2-advanced-demo/backend/web/` ，访问URL为 http://backend.xxx.com/
 
@@ -27,9 +28,9 @@ Yii2 Advanced Demo
 如果您觉得对你有帮助愿意捐助的话可以：
 
 1. 我的支付宝：caizhenghai@gmail.com
-2. 扫二维码直接捐助 
+2. 扫二维码直接捐助
     - ![支付宝即是到账](http://ww4.sinaimg.cn/bmiddle/4cc5f9b3jw1edgpp0u6joj207i07imy4.jpg)
-3. 加我微信，转账捐助 
+3. 加我微信，转账捐助
     - ![微信支付](http://ww3.sinaimg.cn/bmiddle/4cc5f9b3gw1eonw0fs4c0j20fl0ltjt8.jpg)
 
 请留下您的联系方式，感谢！
